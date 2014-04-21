@@ -2,7 +2,7 @@ import argparse
 import sys
 import re
 
-from phonebooks import FilePhonebook as Phonebook
+from phonebooks import SimpleFilePhonebook as Phonebook
 
 def create(filename):
     try:
